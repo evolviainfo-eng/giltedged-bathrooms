@@ -180,8 +180,6 @@
     ba.addEventListener('pointerup', end);
     ba.addEventListener('pointercancel', end);
     range.addEventListener('input', function () { set(+range.value); });
-    ba.setAttribute('tabindex', '-1');
-    ba.addEventListener('click', function () { range.focus({ preventScroll: true }); });
   });
 
   /* town tabs over the before/after stage */

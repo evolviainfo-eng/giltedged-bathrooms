@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://giltedged-bathrooms.vercel.app/</loc></url>
+  <url><loc>https://giltedged-bathrooms.vercel.app/projects/</loc></url>
   <url><loc>https://giltedged-bathrooms.vercel.app/projects/canvey-island/</loc></url>
   <url><loc>https://giltedged-bathrooms.vercel.app/projects/billericay/</loc></url>
   <url><loc>https://giltedged-bathrooms.vercel.app/projects/leigh-on-sea/</loc></url>
@@ -9,5 +10,6 @@
   <url><loc>https://giltedged-bathrooms.vercel.app/projects/hatfield-peverel/</loc></url>
   <url><loc>https://giltedged-bathrooms.vercel.app/projects/wickford/</loc></url>
   <url><loc>https://giltedged-bathrooms.vercel.app/projects/hutton/</loc></url>
+  <url><loc>https://giltedged-bathrooms.vercel.app/about/</loc></url>
   <url><loc>https://giltedged-bathrooms.vercel.app/privacy.html</loc></url>
 </urlset>
