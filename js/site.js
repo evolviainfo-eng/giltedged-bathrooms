@@ -42,10 +42,10 @@
   else {
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (e) { if (e.isIntersecting || e.boundingClientRect.top < 0) { show(e.target); io.unobserve(e.target); } });
-    }, { threshold: 0.12, rootMargin: '0px 0px -6% 0px' });
+    }, { threshold: 0, rootMargin: '0px 0px 6% 0px' });
     restEls.forEach(function (el) { io.observe(el); });
     var sweep = function () { restEls.forEach(function (el) { var r = el.getBoundingClientRect(); if (r.top < innerHeight && r.bottom > 0) show(el); }); };
-    setTimeout(sweep, 3200);
+    setTimeout(sweep, 1200);
     addEventListener('pageshow', sweep);
     addEventListener('beforeprint', function () { els.forEach(show); });
   }
