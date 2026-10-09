@@ -888,3 +888,14 @@ body { font-feature-settings: "kern", "liga", "lnum"; }
 .js .rv { transform: translateY(10px); }
 .js .rv.in { transform: none; }
 @media (max-width: 899px) { .hx__ph::before { background: linear-gradient(to bottom, rgb(15 14 13 / .35) 0%, rgb(15 14 13 / 0) 20%, rgb(15 14 13 / .35) 40%, rgb(15 14 13 / .82) 62%, var(--c-bg-3) 92%); } }
+
+/* contact bar: one aligned row from 1200px, button on the content's right edge */
+.cbar__ic { width: 44px; height: 44px; }
+.cbar__i { gap: 14px; }
+.cbar__v { font-size: 1rem; }
+@media (min-width: 1200px) {
+  .cbar__grid { grid-template-columns: minmax(0, .8fr) minmax(0, .9fr) minmax(0, 1.4fr) auto; justify-content: stretch; align-items: center; column-gap: 0; row-gap: 0; }
+  .cbar__i { padding-inline: 28px; }
+  .cbar__i:first-child { padding-left: 0; }
+  .cbar__cta { grid-column: auto; justify-self: end; padding-left: 32px; }
+}
